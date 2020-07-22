@@ -1,0 +1,182 @@
+/* CSS reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: auto;
+}
+/* navgation bar style */
+#navbar {
+  display: flex;
+  align-items: center;
+  top: 0px;
+  /* left: 0px; */
+  position: sticky;
+}
+#navbar::before {
+  content: "";
+  background-color: beige;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/*#logo{
+    margin: 10px 20px;
+}*/
+#logo img {
+  height: 80px;
+  margin: 10px 40px;
+}
+
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  color: rgb(255, 5, 5);
+  /* color: rgb(43, 255, 200); */
+  display: block;
+  margin: 10px 20px 10px 20px;
+  padding: 15px 30px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  color: rgb(0, 110, 255);
+  background-color: rgb(180, 218, 124);
+  font-size: 2.8rem;
+  border-radius: 15px;
+}
+
+/* home style */
+#home {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 650px;
+  /* position: relative; */
+  justify-content: center;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* background-color: aqua; */
+  background-color: black;
+  height: 760px;
+  width: 100%;
+  z-index: -1;
+}
+#profilepic img {
+  height: 380px;
+  padding-left: 300px;
+}
+#about {
+  /* border: 2px solid green; */
+  margin: 10px;
+  padding: 20px;
+  height: 300px;
+  color: aqua;
+  /* color: black; */
+}
+#para1,
+#para3 {
+  font-size: 3.5rem;
+}
+#para2 {
+  font-size: 2.5rem;
+}
+
+/* Education */
+#education {
+  /* border: 2px solid red; */
+  /* background-color: rgb(53, 247, 247); */
+  /* position: relative; */
+  /* align-content: center; */
+  /* justify-content: center; */
+  height: 400px;
+}
+#education::before{
+   /* border: 2px solid red;  */
+  content: "";
+  position: absolute;
+  height: 410px;
+  width: 100%;
+  /* background-color: rgb(53, 247, 247); */
+  background-color: black;
+  z-index: -1;
+}
+#educa {
+  display: flex;
+}
+.edu {
+  border: 2px solid black;
+  position: relative;
+   margin: 12px auto;
+  /* margin: 0px 12px; */
+  padding: 15px 20px;
+  background-color: aquamarine;
+  text-align: center;
+  border-radius: 20px;
+}
+#edu2 {
+  width: 1000px;
+}
+.edu p {
+  /* color: red; */
+  font-size: 1.8rem;
+}
+.edu p p {
+  color: aqua;
+}
+
+/* contact */
+#contact{
+  /* background-color: rgb(76, 252, 252); */
+  /* background-color: aquamarine; */
+  /* border: 2px solid black; */
+  height: 280px;
+}
+#contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* background-color: rgb(91, 247, 247); */
+  background-color: black;
+}
+#cont{
+  display: flex;
+  /* position: absolute; */
+  position: relative;
+  justify-content: center;
+  /* align-content: center; */
+}
+#cont img{
+  height: 124px;
+  margin: 1px 54px;
+  /* padding: 12px 20px; */
+}
+
+
+/* utility classes */
+.hpri {
+  font-size: 2.8em;
+}
+
+.hmain {
+  color: rgb(255, 0, 0);
+  font-size: 4.8rem;
+  text-align: center;
+}
