@@ -1,5 +1,83 @@
+@media(max-width:600px){
+  /* navbar */
+  #navbar {
+    width: 100%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  #logo img {
+    height: 50px;
+    margin: 5px 8px;
+  }
+  #navbar ul li a {
+    margin: 10px 4px;
+    padding: 4px 0px;
+    font-size: 1.0rem;
+    font-weight: 800;
+  }
+  #navbar ul li a:hover {
+    font-size: 0.8rem;
+    border-radius: 5px;
+  }
+
+  /* home */
+  #home {
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  #profilepic img {
+    height: 320px;
+    margin: 10px 20px;
+  }
+  #about {
+    /* border: 2px solid green; */
+    text-align: center;
+    margin: 10px 8px;
+    padding: 20px;
+  }
+  #para1,
+  #para3 {
+    font-size: 2.3rem;
+  }
+  #para2 {
+    font-size: 1.8rem;
+  }
+
+  /* Education */
+  #education {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  #educa {
+    /* border: 2px solid red;     */
+    flex-direction: column;
+  }
+  .edu {
+    margin: 8px 8px;
+    padding: 10px 6px;
+    border-radius: 15px;
+  }
+  .edudate {
+    font-size: 1.2rem;
+  }
+
+  /* contact */
+  #cont img {
+    height: 60px;
+    margin: 5px 20px;
+  }
+
+  /* utility classes */
+  .hpri {
+    font-size: 2rem;
+  }
+  .hmain {
+    font-size: 3.0rem;
+  }
+}
                                       /* For mobile phones */
-@media (max-width: 767px){
+@media (min-width: 600px) and (max-width: 767px){
 /* navbar */
   #navbar {
     width: 100%;
@@ -27,6 +105,7 @@
     flex-direction: column;
   }
   #profilepic img {
+    height: 350px;
     margin: 20px 20px;
   }
   #about {
