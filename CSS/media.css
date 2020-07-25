@@ -1,0 +1,164 @@
+                                      /* For mobile phones */
+@media (max-width: 767px){
+/* navbar */
+  #navbar {
+    width: 100%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  #logo img {
+    height: 50px;
+    margin: 5px 10px;
+  }
+  #navbar ul li a {
+    margin: 10px 10px;
+    padding: 4px 12px;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  #navbar ul li a:hover {
+    font-size: 1.6rem;
+    border-radius: 10px;
+  }
+
+  /* home */
+  #home {
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  #profilepic img {
+    margin: 20px 20px;
+  }
+  #about {
+    /* border: 2px solid green; */
+    text-align: center;
+    margin: 16px 8px;
+    padding: 20px;
+  }
+  #para1,
+  #para3 {
+    font-size: 2.9rem;
+  }
+  #para2 {
+    font-size: 2.3rem;
+  }
+
+  /* Education */
+  #education {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  #educa {
+    /* border: 2px solid red;     */
+    flex-direction: column;
+  }
+  .edu {
+    margin: 8px 8px;
+    padding: 10px 6px;
+    border-radius: 15px;
+  }
+  .edudate {
+    font-size: 1.2rem;
+  }
+
+  /* contact */
+  #cont img {
+    height: 60px;
+    margin: 5px 20px;
+  }
+
+  /* utility classes */
+  .hpri {
+    font-size: 2rem;
+  }
+  .hmain {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+                                            /* for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* navbar */
+  #navbar {
+    /* border: 2px solid black; */
+    justify-content: center;
+    width: 100%;
+  }
+  #logo img {
+    height: 60px;
+  }
+  #navbar ul li a {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    font-size: 1.9rem;
+  }
+  #navbar ul li a:hover {
+    font-size: 2.1rem;
+  }
+  /* home */
+  #profilepic img {
+    height: 300px;
+    margin-left: 30px;
+    /* border: 2px solid black; */
+  }
+  #about {
+    padding: 10px;
+  }
+  #para1,
+  #para3 {
+    font-size: 2.3rem;
+  }
+  #para2 {
+    font-size: 1.8rem;
+  }
+
+  /* education */
+  #education {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+  #educa {
+    /* border: 2px solid red;    */
+    flex-direction: column;
+  }
+  .edu {
+    margin: 10px 10px;
+    padding: 15px 8px;
+    border-radius: 15px;
+  }
+  .edudate {
+    font-size: 1.5rem;
+  }
+
+  /* contact */
+  #cont img {
+    height: 80px;
+    margin: 5px 30px;
+  }
+
+  /* utlity classes */
+  .hpri {
+    font-size: 2.3rem;
+  }
+  .hmain {
+    font-size: 4rem;
+  }
+}
+
+                                            /* for laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbar ul li a {
+    margin: 10px 20px;
+    padding: 10px 10px;
+    font-size: 2.7rem;
+    /* border: 2px solid red; */
+  }
+  #navbar ul li a:hover {
+    font-size: 2.9rem;
+  }
+}

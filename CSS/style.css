@@ -4,7 +4,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* justify-content: center; */
 }
 html {
   scroll-behavior: auto;
@@ -15,8 +14,7 @@ html {
   align-items: center;
   position: sticky;
   top: 0px;
-
-  /* left: 0px; */
+  width: 100%;
 }
 #navbar::before {
   content: "";
@@ -30,9 +28,6 @@ html {
   opacity: 0.7;
 }
 
-/*#logo{
-    margin: 10px 34px;
-}/*/
 #logo img {
   height: 80px;
   margin: 3px 6px;
@@ -46,13 +41,10 @@ html {
   list-style: none;
 }
 #navbar ul li a {
-  color: rgb(255, 5, 5);
-  /* color: rgb(43, 255, 200); */
-  /* display: block; */
   margin: 10px 20px 10px 20px;
   padding: 15px 30px;
   font-size: 2.4rem;
-  font-weight: 900;
+  color: red;
   text-decoration: none;
 }
 #navbar ul li a:hover {
@@ -61,41 +53,7 @@ html {
   font-size: 2.5rem;
   border-radius: 15px;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  #navbar ul li a {
-    margin: 10px 20px;
-    padding: 10px 10px;
-    font-size: 2.7rem;
-    /* border: 2px solid red; */
-  }
-  #navbar ul li a:hover {
-    font-size: 2.9rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #navbar {
-    /* border: 2px solid black; */
-    justify-content: center;
-    width: 100%;
-  }
-  #logo img {
-    height: 60px;
-    margin: 3px 6px;
-    filter: invert(100%);
-  }
-  #navbar ul li a {
-    color: rgb(255, 5, 5);
-    /* display: block; */
-    margin: 10px 10px 10px 10px;
-    padding: 10px 20px;
-    font-size: 1.9rem;
-    font-weight: 900;
-    text-decoration: none;
-  }
-  #navbar ul li a:hover {
-    font-size: 2.1rem;
-  }
-}
+
 
 /* home style */
 #home {
@@ -120,7 +78,6 @@ html {
   margin-left: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
-
   /* border: 2px solid black; */
 }
 #about {
@@ -137,42 +94,12 @@ html {
 #para2 {
   font-size: 2.5rem;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  /*#home{
-    border: 2px solid red;
-  }*/
-  #profilepic img {
-    height: 350px;
-    margin-left: 30px;
-  }
-  #about {
-    margin: 8px;
-    padding: 16px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #profilepic img {
-    height: 300px;
-    margin-left: 30px;
-    /* border: 2px solid black; */
-  }
-  #about {
-    padding: 10px;
-  }
-  #para1,
-  #para3 {
-    font-size: 2.3rem;
-  }
-  #para2 {
-    font-size: 1.8rem;
-  }
-}
+
 
 /* Education */
 #education {
   display: flex;
   flex-direction: column;
-  /* height: 500px; */
   height: 100%;
   /* border:  2px solid greenyellow; */
   justify-content: center;
@@ -190,11 +117,11 @@ html {
   display: flex;
   /* border: 2px solid red; */
   text-align: center;
+  width: 100%;
   justify-content: center;
 }
 .edu {
-  width: 100%;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   margin: 10px 10px;
   padding: 15px 10px;
   background-color: rgb(0, 162, 255);
@@ -202,9 +129,7 @@ html {
   justify-content: center;
   border-radius: 20px;
 }
-/*#edu2 {
-  width: 1000px;
-}*/
+
 .edu p {
   /* color: red; */
   font-size: 1.8rem;
@@ -213,29 +138,6 @@ html {
   font-size: 2rem;
   font-weight: 700;
   /* border: 2px solid red; */
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #education {
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-  }
-  #educa {
-    flex-direction: column;
-  }
-  .edu {
-    width: 100%;
-    /* border: 2px solid black; */
-    margin: 10px 0px;
-    padding: 15px 8px;
-    background-color: rgb(0, 162, 255);
-    text-align: center;
-    justify-content: center;
-    border-radius: 10px;
-  }
-  .edudate{
-    font-size: 1.5rem;
-  }
 }
 
 /* contact */
@@ -261,30 +163,14 @@ html {
   height: 124px;
   margin: 5px 54px;
 }
-@media (min-width: 768px) and (max-width: 991px){
-  #cont img{
-    height: 80px;
-  margin: 5px 30px;
-  }
-}
+
 
 /* utility classes */
 .hpri {
   font-size: 2.8em;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .hpri {
-    font-size: 2.3rem;
-  }
-}
 .hmain {
   color: rgb(255, 0, 0);
   font-size: 4.8rem;
   text-align: center;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .hmain {
-    font-size: 4rem;
-  }
 }
