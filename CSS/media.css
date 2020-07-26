@@ -61,7 +61,16 @@
   .edudate {
     font-size: 1.2rem;
   }
-
+  #skill{
+    flex-direction: column;
+  }
+  .skil ul li{
+    list-style: none;
+    /* border:  2px solid red; */
+    margin: 3px;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
   /* contact */
   #cont img {
     height: 60px;
@@ -140,7 +149,17 @@
   .edudate {
     font-size: 1.2rem;
   }
-
+  /* skills */
+  #skill{
+    flex-direction: column;
+  }
+  .skil ul li{
+    list-style: none;
+    /* border:  2px solid red; */
+    margin: 3px;
+    font-size: 2.0rem;
+    font-weight: 400;
+  }
   /* contact */
   #cont img {
     height: 60px;
@@ -213,6 +232,17 @@
   .edudate {
     font-size: 1.5rem;
   }
+/* skills */
+#skill{
+  flex-direction: column;
+}
+.skil ul li{
+  list-style: none;
+  /* border:  2px solid red; */
+  margin: 5px;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
 
   /* contact */
   #cont img {
