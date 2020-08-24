@@ -87,8 +87,12 @@ background: linear-gradient(145deg, rgba(17,216,217,1) 0%, rgba(221,97,94,1) 49%
 #about {
   /* border: 2px solid green; */
   margin-top: 50px;
-  padding: 20px;
-  color: rgb(0, 255, 106);
+  padding: 30px;
+  /* color: rgb(0, 255, 106); */
+  /* font-weight: 500; */
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Srisakdi', cursive; */
+
   /* color: black; */
 }
 #para1,
@@ -125,6 +129,7 @@ background: linear-gradient(225deg, rgba(168,69,233,1) 0%, rgba(18,161,137,1) 68
   text-align: center;
   width: 100%;
   justify-content: center;
+  font-family: 'Inconsolata', monospace;
 }
 .edu {
   /* border: 2px solid black; */
@@ -165,6 +170,7 @@ background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(13,226,190,1) 68
   text-align: center;
   width: 100%;
   justify-content: center;
+
 }
 .skil{
   background-color: rgb(49, 247, 131);
@@ -173,6 +179,7 @@ background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(13,226,190,1) 68
   padding: 10px 10px;
   text-align: center;
   border-radius: 15px;
+  font-family: 'Slabo 27px', serif;
 }
 .skil ul li{
   list-style: none;
